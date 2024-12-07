@@ -1,0 +1,18 @@
+"Death HitPlace Details"
+fr:"Details Impacts de Mort"
+de:"Death HitPlace Details"
+bp:"Death HitPlace Details"
+no:"Death HitPlace Details"
+pl:"Death HitPlace Details"
+tr:"Death HitPlace Details"
+es:"Detalles del sitio de impacto de muerte"
+
+"Total hit(s): %d"
+fr:"Nombre d'impacts : %d"
+de:"Total Treffer: %d"
+bp:"Total acerto(s): %d"
+no:"Totalt impact(s): %d"
+pl:"Suma trafien: %d"
+tr:"Toplam kafa: %d"
+es:"Total de impacto(s): %d"
+

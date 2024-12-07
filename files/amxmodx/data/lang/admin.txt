@@ -1,0 +1,25 @@
+[en]
+LOADED_ADMIN = Loaded 1 admin from file
+LOADED_ADMINS = Loaded %d admins from file
+SQL_CANT_CON = SQL error: can't connect: '%s'
+SQL_CANT_LOAD_ADMINS = SQL error: can't load admins: '%s'
+NO_ADMINS = No admins found.
+SQL_LOADED_ADMIN = Loaded 1 admin from database
+SQL_LOADED_ADMINS = Loaded %d admins from database
+INV_PAS = Invalid Password!
+PAS_ACC = Password accepted
+PRIV_SET = Privileges set
+NO_ENTRY = You have no entry to the server...
+
+[es]
+LOADED_ADMIN = Se cargo 1 administrador desde archivo
+LOADED_ADMINS = Se cargo %d administrador desde archivo
+SQL_CANT_CON = Error de SQL: no se puede conectar: '%s'
+SQL_CANT_LOAD_ADMINS = Error de SQL: no se pueden cargar los admins: '%s'
+NO_ADMINS = No se encontraron admins.
+SQL_LOADED_ADMIN = Se cargo 1 administrador desde la base de datos
+SQL_LOADED_ADMINS = Se cargo %d administrador desde la base de datos
+INV_PAS = Contraseña incorrecta!
+PAS_ACC = Contraseña aceptada
+PRIV_SET = Privilegios establecidos
+NO_ENTRY = No tenes acceso al servidor...

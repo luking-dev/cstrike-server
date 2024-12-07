@@ -1,0 +1,24 @@
+services:
+  cstrike:
+    container_name: cstrike-server
+    image: cajuclc/cstrike-docker:latest
+    restart: unless-stopped
+    environment:
+      - PORT=27015
+      - MAP=de_dust2
+      - MAXPLAYERS=16
+      - SV_LAN=0
+    ports:
+      - 27016:27015/udp
+    volumes:
+      - ./files/cfgs/server.cfg:/home/steam/cstrike/cstrike/server.cfg
+      - ./files/mapcycle.txt:/home/steam/cstrike/cstrike/mapcycle.txt
+      - ./files/motd.html:/home/steam/cstrike/cstrike/motd.html
+      - ./files/amxmodx/configs/:/home/steam/cstrike/cstrike/addons/amxmodx/configs/
+      - ./files/amxmodx/data/:/home/steam/cstrike/cstrike/addons/amxmodx/data/
+      - ./files/amxmodx/examples/:/home/steam/cstrike/cstrike/addons/amxmodx/examples/
+      - ./files/amxmodx/plugins/:/home/steam/cstrike/cstrike/addons/amxmodx/plugins/
+      - ./files/amxmodx/scripting/:/home/steam/cstrike/cstrike/addons/amxmodx/scripting/
+      - ./files/botnames.txt:/home/steam/cstrike/cstrike/addons/podbot/botnames.txt
+      - ./podbot/podbot.cfg:/home/steam/cstrike/cstrike/addons/podbot/podbot.cfg
+      - ./podbot/botchat.txt:/home/steam/cstrike/cstrike/addons/podbot/botchat.txt

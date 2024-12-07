@@ -1,0 +1,17 @@
+[en]
+CHO_FIN_EXT = Choosing finished. Current map will be extended to next %.0f minutes
+CHO_FIN_NEXT = Choosing finished. The nextmap will be %s
+CHOSE_EXT = %s chose map extending
+X_CHOSE_X = %s chose %s
+CHOOSE_NEXTM = AMX Choose nextmap
+EXTED_MAP = Extend map %s
+TIME_CHOOSE = It's time to choose the nextmap...
+
+[es]
+CHO_FIN_EXT = Eleccion finalizada. El mapa actual sera extendido por los siguientes %.0f minutos
+CHO_FIN_NEXT = Eleccion finalizada. El siguiente mapa sera %s
+CHOSE_EXT = %s elegi el mapa a extender
+X_CHOSE_X = %s elegi %s
+CHOOSE_NEXTM = AMX Seleccion de proximo mapa
+EXTED_MAP = Extender mapa %s
+TIME_CHOOSE = Es momento de elegir el proximo mapa...

@@ -1,0 +1,280 @@
+# All Bot Chat Messages are stored here
+#
+# Any line begining with '#' in the first column is a comment line
+# No line should pass 79 Characters!(equivilent to this alphabetical line)
+#
+#abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz
+#
+# Messages for each Type of Chat begin with a marker enclosed in []
+#
+# Marker Types:
+#
+# [BOMBPLANT] Holds the Messages for the Counter Terrorists
+#	        if a Bomb got planted
+# [KILLED]    Bots say this Message if they killed somebody
+# [DEADCHAT]  Bots say these Lines if they are dead and in
+#	        Spectator Mode
+#
+# %f = Name of Player with the most frags
+# %m = Mapname
+# %r = Time until Round ends
+# %s = Name of Player to reply
+# %t = Name of Teammate alive
+# %v = Last Victim of this Bot
+#
+# Counter Messages for Bomb planted:
+# Minimum Number is 1!
+#
+[BOMBPLANT]
+Por Dios, otra vez esa bomba!!
+Va a volar algo mas que el objetivo!!
+La ultima vez tarde 5 segundos en encontrarla y desactivarla...
+Che, tengo que cortar el cablecito rojo o el azul???
+ME CAGO EN LOS TERRORISTAS Y SUS BOMBAS DEL ORTO!!!
+No se pueden quedar un ratito quietos estos terroristas...
+5 segundos nada mas? JAJA MENTIRA!!!
+mmm, como de costumbre no he comprado el kit de desactivacion...
+Tengo las bolas al piso con estos mapas de desactivacion de bomba...
+Si cubrieses un poquito mejor, no plantarian la bomba...
+Me estan estresando...
+CORRE QUE PLANTARON LA BOMBA !!! DALE, DALE !!!
+Donde plantaron la bomba???
+Ups...
+Dios!! Que alguien me ayude!! No compre defuse!!
+Otra vez la bomba, no saben hacer otra cosa!!!
+Mmm, tienen el manual de una bomba modelo C4?
+Azul o rojo, azul o rojo????
+Les dije que campearamos en el site de la bomba!!!
+#
+#
+#
+#
+#
+#
+# Mensajes despues de matar a alguien:
+# Numero minimo es 1
+#
+[KILLED]
+%v, lo siento, no eres rival para mi...
+Lo siento %v. Te me cruzaste
+Te deje como un colador, %v
+Tenia que hacerlo %v
+%v deberias esconderte cuando me ves, pedazo de inutil.
+Siempre voy a ser mejor que vos, %v. Siempre.
+Supongo que me odias cuando te hago verga, no %v?
+Voy a tener que darte unas clases, %v !
+%v, estoy preocupado por ti. Sos un inutil...
+A COMEEERRRRLAAAA!! JAJAJA
+Seguro que me llamaras cheater... juas
+%v, hasta me pena matarte
+Dedicate a otra cosa que el CS es demasiado para vos, %v
+Si es ke no sabes colocarte... hasta el mas pardo es capaz de matarte
+Alguna vez te dejaron sin cabeza, %v? Anda acostumbrandote...
+Miralo... no sabe hacer otra cosa que campear
+JAJAJAJA!!! SOS UNA PORONGA, %v!!!
+Todavia no sabes que las armas tienen dispersion??
+Mira que sos malo... apuntas a un farol y matas a una vieja
+Cuantas veces te mate ya, %v??
+Deja esto y anda a jugar al Candy Crush
+No servis ni de rehen, %v!!!
+Soy mas peligroso que McGiver en una ferreteria!!!
+Mirame y aprende, payaso!
+La vida es larga y dura. %v, chupame la vida
+Un "error" menos en el mundo...
+%v, yo soy tu padre
+Tenes menos punteria que mi abuela con Parkinson
+#
+#
+#
+#
+#
+#
+#
+# Mensajes cuando estan aburridos y muertos.
+# Minimo de 9!!
+#
+[DEADCHAT]
+Podriamos cambiar de mapa, no?
+Los muertos no hablan...
+Estos camperos de mierda!!!
+Me aburroooooo!
+Estaria bueno que se una alguien bueno al server...
+Que aburrido...
+Es increible lo malo que son algunos
+Este mapa no me gusta
+Estoy teniendo un mal dia...
+MUERTE A TODOS LOS CAMPERS!!!
+Van a dejar de campear algun dia????
+Si pongo a un manco a jugar, seguro lo hace mejor
+El proximo round te voy a meter la pistola por el culo
+Cambien de mapa de una vez!!!
+# 32 upto here
+La proxima ronda vamos juntos, ok?
+Voy a cagar que creo que me da tiempo. Ya vengo
+Han matado a Kenny!!! HIJOS DE PUTA!!!
+CHEATER!!! ES UN CHEATER!!!
+Funciona el "klapaucius" del Sims? Mas que seco, estoy "crocante"
+Cuando uno es bueno, es bueno
+TIRAMOS UNA RONDA DE CUCHILLO???
+Como puede ser que con una GeForce 3070 RTX esto vaya a 15 fps?
+Si no se matan, voy a hacerme una pajota
+Sos mas maricon que el fan de Wanda
+Me cago en Windows...
+Como podes pegar con la AK-47 a esa distancia???
+Mi nombre es Paco. Paco Gerlos.
+VAYANSE A LA MIERDA!!!!
+Veo gente muerta...
+
+# Start of the "dynamic" replies from here
+# After each @KEY Tag you need to specify the
+# keywords in quotation marks and uppercase. You can
+# have several keywords (aliases) each separated by a comma.
+# After the keywords line, the answers or messages to this
+# special keyword need to be given. In theory there can be an unlimited
+# number of answers of course you should care about the used memory ;)
+
+[REPLIES]
+
+@KEY "MATE", "MATA"
+Los muertos no hablan, %s
+Fue una muerte "natural", %s
+
+@KEY " BOT ", "BOTS"
+Por que siempre hablas de eso?
+No hay bots en este server, %s, ya te lo dije!
+Esta bueno jugar con bots!
+Cual es tu bot favorito, %s?
+Estaria bueno jugar alguna vez contra humanos...
+
+@KEY "CAMPER", "CAMPEA", "CAMPERO", "CAMPEANDO", "CAMPEAR"
+Odio a los campers!
+Camperos cagones!
+Hay alguna vez que no campees, %s?
+La unica forma que tienen de ganar es campeando...
+
+@KEY "CHEAT", "TRUCO", "TRAMPA"
+Estos chiteros estan arruinando el juego!
+Sospecho que %f esta usando cheats
+Odio a los chiteros!
+Muerte a los cheaters!
+Por que tanta gente usa cheats?
+
+@KEY " CS ", "COUNTER", "COUNTER-STRIKE", "CSTRIKE"
+El Counter-Strike es aburrido...
+%s cuanto hace que jugas al CS?
+Hay muchos burros jugandolo
+
+@KEY "PUTO", "PUTA", "ORTO", "CULO", "CONCHA", "GAY"
+No digas malas palabras, %s!
+Bastante mal hablado, %s...
+Si, tenes razon, %s. ¡Ahora CERRA EL ORTO!
+%s, la boquiiiiita!
+%s, no vuelvas a usar esa palabra, es de mala educacion!
+Que sutil, %s...
+
+@KEY "JAJA", "JAJAJA", "JEJE", ":)"
+Me alegro de que al menos te diviertas, %s...
+Divertite mientras puedas, %s!
+Muy divertido, %s...
+Bien, %s!
+Entre risa y risa, me acaricias la petisa, %s
+
+@KEY "CREO ", "PARECE"
+Pensas mucho...
+Yo creo que tenes que cerrar el orto y jugar!
+En serio te parece eso, %s?
+Que es lo que te hace pensar eso?
+
+@KEY " PING ", "LAG", "TILDADO"
+Siempre tengo un ping de 5, tengo Fibertel, papa!
+Mi conexion es una verga... Ni que tuviese Wiltel
+Siempre la misma excusa, %s?
+Juga sin conexion y con bots, si tu conexion es una pija...
+Cambiate de proveedor, %s!
+
+@KEY "MINECRAFT", "FORTNITE", "COD", "DUTY", "JUEGO", "JUEGOS"
+Jugamos a la "basurita"? Vos sos la basura y yo te re-cojo, %s
+El Call of Duty Warzone sigue siendo el mejor por lejos, %s!
+Banco el Fortnite, eh... %s
+Si sos malo hasta en el Tetris, %s
+%s, anda a jugar al Candy Crush
+
+@KEY "SERVER", "SERVIDOR", "PARTIDA"
+Siempre estoy en este server
+Mis amigos y yo jugamos mucho en este server
+Creo que este server tiene una buena rotacion de mapas
+Tremendo crack el que armo este server
+Para mi este server es una poronga
+
+@KEY "PERDON", "LO SIENTO"
+Si, despues todo el mundo pide disculpas
+La excusa no me sirve ahora, %s!
+La proxima vez pensalo mejor antes de empezar a hacer algo, %s!
+Yo tambien lo siento!
+No sabes lo que te vas a arrepentir de haber hecho eso...
+
+@KEY "COMPA", " SIN QUERER "
+Los que matan a los de su mismo equipo deberaan ser expulsados ​​de este servidor.
+Quien es mato a uno del equipo %s?
+Me gusta acuchillar a mis compañeros de equipo, MUHAHA!
+%t te mato? Lo hace seguido el pajero ese
+Donde esta el admin? El deberia encargarse de eso...
+%s quedate quieto y %r devolvesela!
+
+@KEY "DORMI", "CANSADO", "DORMIR", "SIESTA"
+Anda a dormir, %s
+Descansa un poco, %s...
+Queres café, %s?
+¡Vamos, %s! Una ronda mas...
+
+@KEY "VOTAR", "MAPA", "CAMBIAR"
+No, me gusta %m
+Solo porque siempre estas muerto %s?
+%m es genial, cerra el ojete!
+%m es tuyo!
+Sí. Votemos ahora.
+
+@KEY "QUE ", "POR QUE ", "DONDE ", "QUIEN ", "CUANDO ", "COMO "
+Nunca lo vas a saber, %s!
+Si, eso es raro %s...
+La respuesta esta ahi afuera, %s ;)
+Ni idea, %s
+No se
+Que pensas %s?
+No te voy a decir, %s!
+Descubrilo vos, %s!
+Buena pregunta, %s!
+
+[UNKNOWN]
+Bla bla bla...
+Que dijiste, %s?
+Concentrate en el juego, %s!
+Me gusta hablar con vos %s!
+Estos mensajes del orto me estan asustando!
+No spamees, %s!
+Como haces tiempo para escribir toda esta poronga???
+Si, %s. Estas en lo cierto!
+De ninguna manera, %s...
+De donde sos, %s?
+No puedo creer como podes jugar y hablar al mismo tiempo, %s!
+Estas seguro, %s?
+Veo, %s!
+Por que todo el mundo dice siempre lo mismo?
+De que mierda estas hablando, %s?
+Che, callate y juga, %s!
+Dijiste algo, %s?
+Quien dijo eso?
+Oh, en serio?
+Muy divertido, %s!
+Odio estos comentarios pelotudos, %s!
+¿Alguien sabe cómo hacer el bunny hopping?
+ZZZZZZZzzzzzz
+QUUUUUUUUUUUEEEEEE?
+Estoy aburrido...
+Tenes Instagram, %s?
+Hoy viene lento...
+Por Dios, sos raro!
+Queres jugar o hablar todo el tiempo?
+No me interesa, %s
+Es cierto
+EHHH? QUE CARAJOS?

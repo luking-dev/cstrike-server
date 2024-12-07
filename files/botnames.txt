@@ -1,0 +1,46 @@
+# This File contains all Botnames which are used if you don't
+# specify a name using "pb add"
+# There must be at least 9 names in here and you're allowed a maximum
+# of 21 chars for the name ! Why ? The "[POD]" will be
+# placed before the Name and the Skill will be appended...
+#
+# Line below contains 21 chars as a marker for you
+#23456789012345678901
+#
+#
+Boris Crot
+Traniela
+Coki Soundblaster
+Tito Coffler
+Fatality Forceps
+El gordo prompter
+Estigma y Torbellino
+Quiqui Cribolti
+Ball Ball Sit & Down
+El gordo adentro
+Mani Tacamani
+Carla Stratocarla
+Lazaro Vimolti
+Colo Vagino
+Beti 2dientes
+Cramalot Vivot
+Costillita Dangelo
+Chico Trueno
+Oliver Milkshake
+Jordi el niño polla
+Claudia Buscapleito
+Jason Dimequesi
+Kiko De La Rica
+Juampi Binomio
+Marisa Bombastic
+Kelly Divine
+Abella Danger
+Lisa Ann
+Rene Perez Virolti
+Jason Damelamia
+Venas Duranga
+Andy Metralleta
+Tony Cantina
+#
+# 32 Names
+#

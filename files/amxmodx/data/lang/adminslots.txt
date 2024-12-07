@@ -1,0 +1,5 @@
+[en]
+DROPPED_RES = Dropped due to slot reservation
+
+[es]
+DROPPED_RES = Abandonado debido a reserva de espacio

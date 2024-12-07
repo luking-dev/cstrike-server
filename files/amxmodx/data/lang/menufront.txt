@@ -1,0 +1,35 @@
+[en]
+KICK_PLAYER = Kick Player
+BAN_PLAYER = Ban Player
+SLAP_SLAY = Slap/Slay Player
+TEAM_PLAYER = Team Player ^n
+CHANGEL = Changelevel
+VOTE_MAPS = Vote for maps ^n
+SPECH_STUFF = Speech Stuff
+CLIENT_COM = Client Commands
+SERVER_COM = Server Commands
+CVARS_SET = Cvars Settings
+CONFIG = Configuration
+LANG_SET = Language Settings
+STATS_SET = Stats Settings ^n
+PAUSE_PLUG = Pause Plugins
+RES_WEAP = Restrict Weapons
+TELE_PLAYER = Teleport Player
+
+[es]
+KICK_PLAYER = Expulsar jugador
+BAN_PLAYER = Banear jugador
+SLAP_SLAY = Golpear/matar jugador
+TEAM_PLAYER = Equipo jugador ^n
+CHANGEL = Cambiar nivel
+VOTE_MAPS = Votar por mapas ^n
+SPECH_STUFF = Cosas relacionadas a voces
+CLIENT_COM = Comandos de cliente
+SERVER_COM = Comandos de servidor
+CVARS_SET = Configuracion de Cvars
+CONFIG = Configuracion
+LANG_SET = Configuracion de idioma
+STATS_SET = Configuracion de estadisticas ^n
+PAUSE_PLUG = Pausar plugins
+RES_WEAP = Restringir armas
+TELE_PLAYER = Teletransportar jugador

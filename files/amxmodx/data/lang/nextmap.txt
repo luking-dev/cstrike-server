@@ -1,0 +1,9 @@
+[en]
+NEXT_MAP = Next Map:
+PLAYED_MAP = Played map
+FRIEND_FIRE = Friendly fire
+
+[es]
+NEXT_MAP = Siguiente Mapa:
+PLAYED_MAP = Mapa jugado
+FRIEND_FIRE = Fuego amigo

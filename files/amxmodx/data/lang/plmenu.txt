@@ -1,0 +1,35 @@
+[en]
+ADMIN_BAN_1 = ADMIN: ban %s
+ADMIN_BAN_2 = ADMIN %s: ban %s
+BAN_MENU = Ban Menu
+BAN_FOR_MIN = Ban for %d minutes
+BAN_PERM = Ban permanently
+SLAP_SLAY_MENU = Slap/Slay Menu
+SLAP_WITH_DMG = Slap with %d damage
+SLAY = Slay
+KICK_MENU = Kick Menu
+ADMIN_TRANSF_1 = ADMIN: transfer %s to %s
+ADMIN_TRANSF_2 = ADMIN %s: transfer %s to %s
+TEAM_MENU = Team Menu
+TRANSF_TO = Transfer to %s
+CL_CMD_MENU = Client Cmds Menu
+NO_CMDS = No cmds available
+CANT_PERF_PLAYER = That action can't be performed on player "%s"
+
+[es]
+ADMIN_BAN_1 = ADMIN: banear %s
+ADMIN_BAN_2 = ADMIN %s: banear %s
+BAN_MENU = Menu de baneo
+BAN_FOR_MIN = Banear por %d minutos
+BAN_PERM = Banear permanentemente
+SLAP_SLAY_MENU = Menu de golpeo/muerte
+SLAP_WITH_DMG = Golpear con %d de daño
+SLAY = Matar
+KICK_MENU = Menu de expulsion
+ADMIN_TRANSF_1 = ADMIN: transferir %s a %s
+ADMIN_TRANSF_2 = ADMIN %s: transferir %s a %s
+TEAM_MENU = Menu de equipo
+TRANSF_TO = Transferir a %s
+CL_CMD_MENU = Menu cmds cliente
+NO_CMDS = No hay cmds disponibles
+CANT_PERF_PLAYER = Esa accion no puede ser realizada sobre el jugador "%s"
